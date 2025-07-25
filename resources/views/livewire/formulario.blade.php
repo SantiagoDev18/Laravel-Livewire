@@ -9,7 +9,7 @@
                 {{-- @error('title')
                     the required 
                 @enderror --}}
-                <x-input-error for="title"></x-input-error>
+                {{-- <x-input-error for="title"></x-input-error> --}}
             </div>
             <div class="mb-4">
                 <x-label>Contenido</x-label>
