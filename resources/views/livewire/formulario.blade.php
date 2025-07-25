@@ -197,7 +197,7 @@
                 <div class="flex justify-end">
                     <x-danger-button wire:click="$set('open',false)">Cancelar</x-danger-button>
 
-                    <x-button>Update</x-button>
+                    <x-button>Actualizar</x-button>
                 </div>
             </x-slot>
         </x-dialog-modal>
