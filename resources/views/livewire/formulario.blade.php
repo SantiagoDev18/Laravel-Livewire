@@ -9,7 +9,7 @@
                 {{-- @error('title')
                     the required 
                 @enderror --}}
-                <x-input-error for="title"></x-input-error>
+                <!-- <x-input-error for="title"></x-input-error> -->
             </div>
             <div class="mb-4">
                 <x-label>Contenido</x-label>
@@ -23,7 +23,7 @@
                 <select name="" id="" class="w-full" wire:model="category_id">
                     
                     <option value="" disabled>
-                        selecciona una categoria
+                        selecciona una categoriagit 
                     </option>
                     @foreach ($categories as $category)
                         <option value="{{ $category->id }}">
@@ -31,7 +31,7 @@
                         </option>
                     @endforeach
                 </select>
-                <x-input-error for="category_id"></x-input-error>
+                <!-- <x-input-error for="category_id"></x-input-error> -->
             </div>
             <div class="mb-4">
                 <x-label>Etiqueta</x-label>
