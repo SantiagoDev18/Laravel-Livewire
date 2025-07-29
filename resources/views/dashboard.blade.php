@@ -10,6 +10,11 @@
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                 {{-- <x-welcome /> --}}
                 <livewire:formulario />
+                {{-- <div class="mt-4">
+
+                    <livewire:comments />
+                </div> --}}
+                {{-- <livewire:padre /> --}}
             </div>
         </div>
     </div>
